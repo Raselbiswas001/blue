@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+/*header start*/
+header{
+background-color: #121B2A;
+padding: 10px 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 80%;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+}
+
+.logo {
+	width: 15%;
+float: left;
+/*border: 2px solid red;*/
+}
+.logo img{
+	width: 100%
+}
+.menu {
+	width: 70%;
+float: right;
+/*border: 2px solid red;*/
+margin-top: 30px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	
+	padding: 19px 30px;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	transition: .4s;
+}
+.menu ul li a:hover{
+	color: #0078BD;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../img/blue.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.b-content {
+	/*border: 2px solid red;*/
+	margin: 300px 0 70px;
+	width: 45%;
+}
+.b-content p:first-child {
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	color: white;
+}
+.b-content h1 {
+	font-family: sans-serif;
+	font-size: 39px;
+	font-weight: 700;
+	color: #0075B8;
+}
+.b-content p:nth-last-child(2) {
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+	color: white;
+	line-height: 30px;
+}
+.b-content button {
+	margin: 25px 0;
+	width: 190px;
+	height: 44px;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #535D69;
+	
+	
+}
+.b-content button span {
+	margin-left: 10px;
+	color: #0075B8;
+}
+.b-content button span i {
+	font-size: 18px;
+}
+.b-content button:hover{
+	background-color: #121B2A;
+}
+
+/*banner end*/
+/*service start*/
+.service {
+	background-color: #121B2A;
+	padding: 80px 0 40px;
+}
+
+
+.single {
+	padding-right: 30px;
+	width: 28%;
+	float: left;
+	/*border: 2px solid red;*/
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #121B2A;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    transition: all 0.3s;
+}
+.s-title {
+	/*border: 2px solid red;*/
+	overflow: hidden;
+}
+
+.icon {
+	width: 20%;
+	float: left;
+	/*border: 1px solid black;*/
+	font-size: 55px;
+	text-align: left;
+}
+.icon span{
+}
+.icon span i {
+	color: white;
+}
+.fas.fa-globe {
+	font-size: 65px;
+	text-align: left;
+	color: white;
+}
+
+.text {
+	width: 79%;
+	float: right;
+	/*border: 1px solid black;*/
+	padding: 0 0 10px;
+}
+.text h1 {
+	font-family: sans-serif;
+	font-size: 27px;
+	color: white;
+	text-align: left;
+}
+.text h2 {
+	font-family: sans-serif;
+	font-size: 27px;
+	color: #0075B8;
+	text-align: left;
+	line-height: 28px;
+}
+.text span{
+	color: #0075B8;
+
+}
+.s-content {
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: white;
+	line-height: 25px;
+	text-align: left;
+	margin: 20px 0 0;
+}
+.s-content p {
+	
+}
+/*service end*/
+/*contact start*/
+.contact{
+	background-color: black;
+	overflow: hidden;
+	padding: 60px 0;
+}
+.c-single{}
+.contact-us {
+	width: 22%;
+	float: left;
+	border: 1px solid red;
+	margin-left: 20px;
+	border-radius: 5px;
+	border: 1px solid #121B2A;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    transition: all 0.3s;
+}
+.contact-us h4{
+font-family: sans-serif;
+font-size: 25px;
+font-weight: 700;
+color: white;
+line-height: 30px;
+text-align: left;
+}
+.contact-us h4 span{
+	color: #0075B8;
+margin-left: 10px;
+}
+.contact-us p{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	line-height: 25px
+}
+
+.testimonial{
+
+	width: 22%;
+	float: left;
+	/*border: 1px solid red;*/
+	margin-left: 25px;
+}
+.testimonial h4{
+font-family: sans-serif;
+font-size: 21px;
+font-weight: 700;
+color: white;
+line-height: 30px;
+text-align: left;
+}
+.testimonial h4 span{
+	color: #0075B8;
+margin-left: 10px;
+}
+.testimonial p{
+	font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 25px;
+}
+
+.testimonial h5 {
+	font-family:sans-serif; 
+	margin: 15px 0 0;
+	color: white;
+}
+.testimonial h6{
+	font-family:sans-serif; 
+	color: white;
+}
+.c-icon {
+	width: 15%;
+	float: left;
+	/*border: 1px solid red;*/
+	margin-left: 25px;
+
+}
+.c-icon span{}
+.c-icon span i {
+	
+	font-size: 200px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #121B2A;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	transition: all 0.3s;
+	color: #0778BA;
+}
+.appstore{
+	width: 15%;
+	float: left;
+
+	/*border: 1px solid red;*/
+}
+.appstore h4{
+font-family: sans-serif;
+font-size: 27px;
+font-weight: 700;
+color: white;
+line-height: 30px;
+text-align: left;
+}
+.appstore h4 span{
+	color: #0075B8;
+margin-left: 10px;
+}
+.applestore {
+	/*border: 3px solid black;*/
+	overflow: hidden;
+	margin-top: 20px;
+	background-color: white;
+}
+.mobile {
+	/*border: 2px solid red;*/
+	width: 18%;
+	float: left;
+}
+.mobile span{}
+.mobile span i {
+	font-size: 58px;
+}
+.text {
+	/* border: 2px solid red; */
+	width: 78%;
+	float: right;
+}
+.text p {
+	font-family: sans-serif;
+	font-size: 13px;
+}
+.text p span {
+	font-size: 28px;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+
+
+/*contact end*/
+/*footer start*/
+.footer{
+	background-color: #121B2A;
+	padding: 30px 0;
+}
+.f-menu{
+	width: 45%;
+	float: left;
+}
+.ftr-menu {
+	width: 54%;
+	float: left;
+	margin: 20px 0;
+}
+.ftr-menu ul{
+	float: right;;
+}
+.ftr-menu ul li{
+	list-style: none;
+	float: left;
+}
+.ftr-menu ul li a {
+	padding: 21px 25px;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	transition: .4s;
+	border-right: 1px solid white;
+}
+.ftr-menu p {
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+	line-height: 50px;
+	margin-left: 68px;
+}
+.f-icon{
+    width: 45%;
+	float:right;
+}
+.f-icon span{}
+.f-icon span i {
+	font-size: 87px;
+	color: #0075B8;
+	margin-left: 40px;
+	padding: 0px 20px 0px;
+
+}
+.fab .fa-cpanel{
+	margin: 20px;
+}
+
+/*footer end*/
