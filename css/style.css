@@ -335,7 +335,7 @@
 /*footer start*/
 .footer{
 	background-color: #121B2A;
-	padding: 20px 0;
+	padding: 10px 0;
 }
 .f-menu{
 	width: 45%;
@@ -344,7 +344,7 @@
 .ftr-menu {
 	width: 54%;
 	float: left;
-	margin: 20px 0;
+	margin: 10px 0;
 }
 .ftr-menu ul{
 	float: right;;
@@ -371,7 +371,7 @@
 	font-weight: bold;
 	color: white;
 	text-align: left;
-	line-height: 50px;
+	line-height: 35px;
 	margin-left: 68px;
 }
 .f-icon{
