@@ -19,7 +19,7 @@
 .logo {
 	width: 15%;
         float: left;
-/*border: 2px solid red;*/
+        /*border: 2px solid red;*/
 }
 .logo img{
 	width: 100%
@@ -27,7 +27,7 @@
 .menu {
 	width: 70%;
         float: right;
-/*border: 2px solid red;*/
+        /*border: 2px solid red;*/
         margin-top: 30px;
 }
 .menu ul{
@@ -97,6 +97,7 @@
 	font-size: 18px;
 	font-weight: 600;
 	color: #535D69;
+	transition: .4s;
 	
 	
 }
@@ -360,8 +361,8 @@
 	font-weight: bold;
 	color: white;
 	text-decoration: none;
-	transition: .4s;
 	border-right: 1px solid white;
+	transition: .4s;
 }
 .ftr-menu p {
 	font-family: sans-serif;
